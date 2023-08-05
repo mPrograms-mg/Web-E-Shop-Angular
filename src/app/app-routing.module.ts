@@ -5,7 +5,7 @@ import { CartComponent } from "./pages/cart/cart.component";
 
 const routes: Routes = [
   {
-    path: "home",
+    path: "",
     component: HomeComponent,
   },
   {
@@ -14,7 +14,7 @@ const routes: Routes = [
   },
   {
     path: "",
-    redirectTo: "home",
+    redirectTo: "",
     pathMatch: "full",
   },
 ];
